@@ -47,13 +47,39 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;    
     align-items: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .filme-principal .descricao{
+    margin-top: 20px;
     margin-bottom: 40px;
     width: 50%;
 }
 
 .titulo{
     font-size: 40px;
+    margin-top: 10%;
+    
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 20px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+i{
+    margin-right: 10px;
 }
