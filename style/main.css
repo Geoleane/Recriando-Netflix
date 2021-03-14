@@ -11,7 +11,7 @@
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }
 
@@ -53,6 +53,7 @@ nav a:hover{
 .filme-principal .descricao{
     margin-top: 20px;
     margin-bottom: 40px;
+    width: 50%;
 }
 
 .titulo{
@@ -88,11 +89,15 @@ i{
 }
 
 .filme-principal .container{
-    width: 50%;
+    width: 80%;
 }
 
 .box-filme{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filme{
+    margin-top: 5px;
 }
